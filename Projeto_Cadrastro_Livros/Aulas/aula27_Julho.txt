@@ -1,0 +1,151 @@
+>> PHYTON <<
+nomear variavel 
+nome = "carlos"
+não precisa de ;
+
+não tem constante
+
+todo arquivo de Phyton termina com .py
+
+ENTRADA
+input (  ) 	- a função input sempre retorna um texto
+
+PROCESSAMENTO
+- Declarar variavel
+- if/else
+- while
+- for
+
+SAIR
+print (   )
+
+Identação -> é como se fosse um paragráfo
+
+Exemplo de IF: 
+
+saldo = 900
+
+if saldo > 950:
+    print("Saldo suficiente")
+else:
+    print("Saldo insuficiente")
+
+
+
+>> Operadores Relacionais <<
+
+matemáticos: + - * / ^
+
+comparação: == (igual) != (diferente) < (menor) <= (menor ou igual) > (maior) >= (maior ou igual)
+
+Quando se usa operador de comparação, sempre retorna true or false (verdadeiro ou falso)
+
+Ex:
+valor1 = 20 ou se o usuário precisar digitar -> valor1 = int(input("Entre com o primeiro número: "))
+valor2 = 30
+
+print(valor1 < valor2)
+
+
+lógicos: not (NÃO)
+            and (E)
+            or   (OU)
+
+Tabela Verdade :     A          B         AND        OR    NOT
+                              V          V           V            V        F
+                              V          F            F            V        F
+                              F          V            F            V        V
+                              F          F            F             F        V
+
+Operador not inverte -> V vira F e F vira V
+
+divisão = a/b -resultado= 5.5
+divisão = a//b -resultado= 5
+divisão = a % b - resultado= 1(sobra da divisao)
+
+print(2**3)= 8(potencia)=2*2*2.
+
+atribuição:
+=, =+,*=,/=,//=,%=
+ex:
+x =1
+x +=2
+print(x) resultado=3
+
+ex:
+x =12
+x /=2
+print(x) resultado=6
+
+for:
+listaAlunos = ['pong', 'ping','mesa','bola','raquete']
+                0    1    2    3      4    ==> indice
+linta Alunos =|pong|ping|mesa|bola|raquete| ==> valor
+
+print(listaAlunos[0]
+print(listaAlunos[1]
+print(listaAlunos[2]
+print(listaAlunos[3]
+print(listaAlunos[4]
+
+ex de for:
+listaAlunos = ['pong', 'ping','mesa','bola','raquete']
+
+for aluno in listaAlunos:
+	print(aluno)
+
+
+
+if ex:
+num = int(input("Digite um numero inteiro (1 a 3)"))
+
+if num == 1:
+    print("um")
+else:
+    if num == 2:
+        print("dois")
+    else:
+        if num == 3:
+            print("três")
+        else:
+            print("Numero fora do intervalo")
+
+
+
+ou ex:
+num = int(input("Digite um numero inteiro (1 a 3)"))
+
+if num == 1:
+    print("um")
+elif num == 2:
+    print("dois")
+elif num == 3:
+    print("três")
+else:
+    print("fora do intervalo")
+
+
+while ex:
+k = 1
+somaTotal = 0
+
+while k < 6:
+    somaTotal += k
+    k +=1
+
+print(somaTotal)
+
+
+
+função ex:
+n1 = 2
+n2 = 3
+ #parametros
+def operacao (n1,n2): #poço colocar qualquer nome dentro dos parenteses, porem puxa o valor das variaveis
+    resultado = n1 + n2 #podemos mudar quaquer operador, reutilizar o codigo.
+    return resultado
+c = operacao (n1 + n2)
+
+print(c)
+
+

@@ -1,0 +1,16 @@
+>> AULA - SEGUNDA 31/07 <<
+
+Para definir uma função, se inicia com: 
+def nome ():
+
+1º Declaro uma função
+2º Chamo a função
+
+Para separar parâmetro, usa-se vírgula:
+def soma (parâmetro1, parâmetro2, parâmetro3)
+
+Em Python, não existe constantes. Para usar lista:
+
+[ ] lista = variavel
+( ) tupla = constante 
+{ } dicionário 
